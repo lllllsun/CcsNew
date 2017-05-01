@@ -15,4 +15,20 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btn_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/btn_notices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notices"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="397dp" />
+
 </android.support.constraint.ConstraintLayout>
